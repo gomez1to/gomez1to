@@ -113,3 +113,11 @@ style > .tider {
   margin-left: 42%;
   font-size: 80%;
 }
+
+.skapa-konto {
+  display: flex;
+  margin-left: 47%;
+  border: solid aqua;
+  height: 50%;
+  width: 5%;
+}
