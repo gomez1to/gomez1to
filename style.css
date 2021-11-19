@@ -6,8 +6,9 @@
 header {
   border: solid green;
   width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: center;
   padding-top: 1%;
   padding-bottom: 1%;
@@ -19,6 +20,8 @@ header {
 }
 
 .nav_links {
+  width: 130%;
+  margin-left: 100%;
   border: solid blue;
   display: flex;
   justify-content: center;
@@ -41,16 +44,17 @@ header {
 .Name {
   border: solid yellow;
   font-size: 150%;
+  margin-left: 2%;
 }
 
 .knapp {
-  margin-left: 65%;
+  margin-left: 55%;
   display: flex;
   justify-content: center;
   border: none;
   background-color: yellow;
   color: black;
-  width: 30%;
+  width: 10%;
   height: 70%;
   border-radius: 10px;
 }
