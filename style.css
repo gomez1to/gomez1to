@@ -380,10 +380,3 @@ body {
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url(bok.jfif);
 }
-
-/*
-@media (max-width: 700px) {
-  .nav_links {
-    font-size: 30px;
-  }
-  */
