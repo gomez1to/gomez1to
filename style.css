@@ -1,15 +1,15 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin: 0%;
+  padding: 0%;
 }
 header {
   border: solid green;
+  height: 90px;
   width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  align-items: center;
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
@@ -19,25 +19,23 @@ header {
   font-size: 170%;
 }
 
-.nav_links {
-  width: 130%;
-  margin-left: 100%;
+nav {
   border: solid blue;
   display: flex;
-  justify-content: center;
-  gap: 5%;
-  color: white;
-  text-decoration: none;
+  margin-left: 20%;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.nav_links a {
+.nav-links a {
   text-decoration: none;
   font-size: 80%;
   color: white;
+  border: solid red;
   transition: all 0.3s ease 0s;
 }
 
-.nav_links a:hover {
+.nav-links a:hover {
   color: yellow;
 }
 
@@ -45,10 +43,13 @@ header {
   border: solid yellow;
   font-size: 150%;
   margin-left: 2%;
+  color: white;
 }
 
 .knapp {
-  margin-left: 55%;
+  font-size: 100%;
+  margin-top: 1%;
+  margin-left: 20%;
   display: flex;
   justify-content: center;
   border: none;
@@ -59,7 +60,20 @@ header {
   border-radius: 10px;
 }
 
-style > .form {
+.tider {
+  color: white;
+}
+
+.text-box {
+  border: solid red;
+  color: white;
+  width: 30%;
+  margin-left: 33%;
+  margin-top: 8%;
+  background-color: black;
+}
+
+style .form {
   display: flex;
   flex-direction: column;
   border: solid yellow;
@@ -90,7 +104,7 @@ style > .form {
   height: 50%;
   width: 5%;
 }
-style > .tider {
+style .tider {
   display: flex;
   border: solid green;
   width: 20%;
@@ -121,3 +135,14 @@ style > .tider {
   height: 50%;
   width: 5%;
 }
+
+body {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(bok.jfif);
+}
+/*
+@media (max-width: 700px) {
+  .nav_links {
+    font-size: 30px;
+  }
+  */
