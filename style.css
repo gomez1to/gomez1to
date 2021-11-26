@@ -4,7 +4,7 @@
   padding: 0%;
 }
 header {
-  border: solid green;
+  border: none;
   height: auto;
   width: 100%;
   display: flex;
@@ -14,13 +14,14 @@ header {
   padding-bottom: 1%;
   padding-left: 1%;
   padding-right: 1%;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   font-size: 170%;
 }
 
 nav {
-  border: solid blue;
+  width: 30%;
+  border: none;
   display: flex;
   margin-left: 23%;
   justify-content: space-between;
@@ -28,10 +29,14 @@ nav {
 }
 
 .nav-links a {
+  border: none;
+  width: 20%;
+  margin-left: 0%;
+  margin-top: 10%;
   text-decoration: none;
   font-size: 80%;
   color: white;
-  border: solid red;
+  /*border: none;*/
   transition: all 0.3s ease 0s;
 }
 
@@ -40,10 +45,10 @@ nav {
 }
 
 .Name {
-  border: solid yellow;
+  border: none;
   font-size: 150%;
   margin-left: 2%;
-  color: white;
+  color: yellow;
 }
 
 .knapp {
@@ -74,7 +79,7 @@ nav {
   text-decoration: none;
   font-size: 150%;
   color: white;
-  border: solid red;
+  border: none;
   transition: all 0.3s ease 0s;
 }
 
@@ -82,7 +87,7 @@ nav {
   text-decoration: none;
   font-size: 80%;
   color: white;
-  border: solid red;
+  border: none;
   transition: all 0.3s ease 0s;
 }
 
@@ -91,7 +96,7 @@ nav {
 }
 
 .allt {
-  border: solid red;
+  border: none;
   background-color: rgba(36, 35, 35, 0.514);
   width: 60%;
   height: auto;
@@ -100,7 +105,7 @@ nav {
 }
 
 .textbox {
-  border: solid red;
+  border: none;
   color: white;
   font-size: 230%;
   width: 80%;
@@ -110,7 +115,7 @@ nav {
 }
 
 .textbox2 {
-  border: solid greenyellow;
+  border: none;
   text-decoration: none;
   color: white;
   font-size: 230%;
@@ -129,7 +134,7 @@ nav {
 }
 
 .textbox3 {
-  border: solid red;
+  border: none;
   color: white;
   font-size: 230%;
   width: 30%;
@@ -139,7 +144,7 @@ nav {
 }
 
 .textbox4 {
-  border: solid red;
+  border: none;
   color: white;
   font-size: 230%;
   width: 30%;
@@ -149,7 +154,7 @@ nav {
 }
 
 .textbox5 {
-  border: solid red;
+  border: none;
   color: white;
   font-size: 230%;
   width: 50%;
@@ -168,7 +173,7 @@ nav {
 }
 
 .textbox6 {
-  border: solid red;
+  border: none;
   color: white;
   font-size: 230%;
   width: 50%;
@@ -178,7 +183,7 @@ nav {
 }
 
 .textbox7 {
-  border: solid red;
+  border: none;
   color: white;
   font-size: 230%;
   width: 45%;
@@ -188,7 +193,7 @@ nav {
 }
 
 .textbox8 {
-  border: solid red;
+  border: none;
   color: white;
   font-size: 230%;
   width: 50%;
@@ -214,7 +219,7 @@ style .form {
 }
 
 .form {
-  border: solid yellow;
+  border: none;
   width: 25%;
   height: auto;
   margin-left: 37%;
@@ -223,7 +228,7 @@ style .form {
 }
 
 .form2 {
-  border: solid yellow;
+  border: none;
   width: 25%;
   height: auto;
   margin-left: 37%;
@@ -234,7 +239,7 @@ style .form {
 .text {
   text-decoration: none;
   color: white;
-  border: solid red;
+  border: none;
   width: 50%;
   margin-left: 23%;
   margin-top: 10%;
@@ -244,7 +249,7 @@ style .form {
 .text2 {
   text-decoration: none;
   color: white;
-  border: solid red;
+  border: none;
   width: 20%;
   margin-left: 40%;
   margin-top: 2%;
@@ -255,7 +260,7 @@ style .form {
 .text3 {
   text-decoration: none;
   color: white;
-  border: solid red;
+  border: none;
   width: 50%;
   margin-left: 25%;
   margin-top: 2%;
@@ -264,7 +269,7 @@ style .form {
 
 .e-mail {
   display: flex;
-  border: solid red;
+  border: none;
   height: 10%;
   width: 14%;
   margin-left: 23%;
@@ -272,7 +277,7 @@ style .form {
 
 .lösenord {
   display: flex;
-  border: solid blueviolet;
+  border: none;
   height: 10%;
   width: 14%;
   margin-left: 23%;
@@ -281,7 +286,7 @@ style .form {
 
 .logga-in {
   display: flex;
-  border: solid aqua;
+  border: none;
   height: 10%;
   width: 5%;
   margin-left: 40%;
@@ -291,7 +296,7 @@ style .form {
   text-decoration: none;
   color: white;
   display: flex;
-  border: solid green;
+  border: none;
   width: 55%;
   font-size: 80%;
   margin-left: 23%;
@@ -310,7 +315,7 @@ style .form {
 .skapa-konto a {
   display: flex;
   margin-left: 35%;
-  border: solid aqua;
+  border: none;
   height: 10%;
   width: 30%;
   text-decoration: none;
@@ -326,7 +331,7 @@ style .form {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  border: solid red;
+  border: none;
   width: 30%;
   height: auto;
   margin-left: 5%;
@@ -334,7 +339,7 @@ style .form {
 }
 
 .tid {
-  border: solid yellow;
+  border: none;
   font-size: 190%;
   width: 40%;
   margin-top: -50%;
@@ -342,7 +347,7 @@ style .form {
 }
 
 .dag {
-  border: solid yellow;
+  border: none;
   font-size: 190%;
   width: 40%;
   margin-top: 10%;
@@ -351,7 +356,7 @@ style .form {
 
 .boka {
   display: flex;
-  border: solid green;
+  border: none;
   width: 11%;
   margin-left: 40%;
   margin-top: 13%;
@@ -361,7 +366,7 @@ style .form {
 .tillfälligt {
   display: flex;
   justify-content: center;
-  border: solid red;
+  border: none;
   background-color: red;
   color: white;
   font-size: 100%;
@@ -369,7 +374,7 @@ style .form {
 
 .bild {
   display: flex;
-  border: solid red;
+  border: none;
   width: 50%;
   height: auto;
   margin-left: 27%;
